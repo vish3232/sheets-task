@@ -1,0 +1,148 @@
+.temp {
+    overflow: auto;
+}
+
+.temp ::-webkit-scrollbar {
+    display: none;
+}
+
+
+.sidebar-container {
+    height: calc(100vh - 70px);
+    width: 25vw;
+    position: relative;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: none;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background-color: #384455;
+    overflow: auto;
+}
+
+.sidebar-container ::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-container .heading {
+    border-bottom: 1px solid #DDDDDD;
+    width: 218px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7px;
+    color: #FFFFFF;
+}
+
+.sidebar-container .button-container::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-container .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    overflow: scroll;
+    color: #FFFFFF;
+
+}
+
+.sidebar-container .button-container .active-button {
+    align-items: center;
+    width: 218px;
+    height: 44px;
+    min-height: 44px;
+    border: none;
+    background: rgba(255, 255, 255, 0.16);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 11px, 14px, 11px, 14px;
+}
+
+.sidebar-container .button-container .active-button svg {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sidebar-container .button-container .button {
+    align-items: center;
+    width: 218px;
+    height: 44px;
+    min-height: 44px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 17px;
+    color: #FFFFFF;
+    background-color: #384455;
+    padding: 11px, 14px, 11px, 14px;
+}
+
+.sidebar-container .button-container .button svg {
+    margin-right: 10px;
+}
+
+.sidebar-container .button-container .button img {
+    margin-right: 10px;
+}
+
+.sidebar-container .button-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar-container .button-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+.sidebar-container .support-box {
+    background-color: white;
+    width: 178px;
+    padding: 30px 20px;
+    border-radius: 2px;
+}
+
+.sidebar-container .support-box span {
+    /* font-family: 'Nunito'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.sidebar-container .support-box p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #827E7B;
+}
+
+.sidebar-container .support-box button {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 90.47px;
+    padding: 0px 11px;
+    height: 37.47px;
+    background: #FF6812;
+    border-radius: 2px;
+    border: none;
+    margin-top: 21px;
+    color: white;
+    cursor: pointer;
+}

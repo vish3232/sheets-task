@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    background-color: #F1F5F7;
+}
+
+.container ::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container .right-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+    width: calc(100vw - 300px);
+    border-radius: 16px;
+    padding: 30px;
+    padding-bottom: 0px;
+    overflow: auto;
+}
+
+.container .right-container ::-webkit-scrollbar {
+    display: none;
+}

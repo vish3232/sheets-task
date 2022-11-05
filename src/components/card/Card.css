@@ -1,0 +1,59 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(66vw+64px);
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.card-container .card {
+
+    width: 64vw;
+    word-wrap: break-word;
+    border: 1px solid #DDDDDD;
+    padding: 25px 32px;
+}
+
+.card-container .card .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-container .card .top .date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #595959;
+
+}
+
+.card-container .card .top .button {
+    cursor: pointer;
+}
+
+.card-container .card .heading span {
+    font-family: 'Nunito';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-container .card .heading p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 2px;
+}
+
+.card-container .card .image img {
+    width: 64vw;
+    height: 100px;
+    object-fit: cover;
+}
